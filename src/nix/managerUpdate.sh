@@ -13,7 +13,7 @@ else
   wget https://github.com/Manager-io/Manager.zip/releases/download/$1/Manager.zip -O ./zips/$fileName
 fi
 
-# Extrack with over-write
+# Extract with over-write
 if test -f "./zips/$fileName"; then
   unzip -o ./zips/$fileName -d ./Manager
   echo Done...
